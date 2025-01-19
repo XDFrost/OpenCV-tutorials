@@ -22,5 +22,5 @@ if(k == 27):
     cv2.destroyAllWindows()
 elif(k == ord('s')):
     print("SAVED AND DESTROYED")
-    cv2.imwrite("OpenCV/written_Images/saved_using_key.png", img)
+    cv2.imwrite("written_Images/saved_using_key.png", img)
     cv2.destroyAllWindows()
